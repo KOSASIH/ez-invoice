@@ -1,5 +1,3 @@
-# src/constants.py
-
 """
 Pi Coin Configuration Constants
 This module contains constants related to the Pi Coin cryptocurrency.
@@ -62,5 +60,18 @@ PI_COIN_API_KEY_EXPIRATION = 3600  # API key expiration time in seconds
 # Pi Coin Regulatory Compliance
 PI_COIN_KYC_REQUIRED = True  # Whether KYC is required for transactions
 PI_COIN_COMPLIANCE_JURISDICTIONS = ["US", "EU", "UK"]  # Jurisdictions for compliance
+
+# Pi Coin Advanced Features
+PI_COIN_MAX_BLOCK_SIZE = 2_000_000  # Maximum block size in bytes
+PI_COIN_FORK_THRESHOLD = 0.1  # Threshold for initiating a hard fork
+PI_COIN_NETWORK_UPGRADE_INTERVAL = 180  # Interval for network upgrades in days
+
+# Pi Coin Community Engagement
+PI_COIN_VOTING_PERIOD_DAYS = 14  # Duration for governance voting
+PI_COIN_VOTING_QUORUM = 0.2  # Minimum percentage of votes required for a decision
+
+# Pi Coin Environmental Considerations
+PI_COIN_CARBON_CREDITS_ENABLED = True  # Whether carbon credits are enabled for transactions
+PI_COIN_CARBON_CREDIT_RATE = 0.001  # Rate of carbon credits earned per transaction
 
 # Additional constants can be added here as needed
